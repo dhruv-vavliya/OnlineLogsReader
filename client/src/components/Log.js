@@ -58,7 +58,7 @@ export default function AddLog() {
         const date = new Date();
         const currentLog = `127.0.0.01:80 - - [${date.getDate() + '/' + month[date.getMonth()] + '/' + date.getFullYear() + ':' + date.getHours() + ':' + date.getMinutes() + ':' +  date.getSeconds() } +0530] "GET/User/Dhruv_Vavliya" -- ${newLog.current.value}"\n`;
         
-        if( currentLog == "" ){
+        if( newLog.current.value == 0 ){
             show('warning', "log is empty :(");
         } else{
             try{

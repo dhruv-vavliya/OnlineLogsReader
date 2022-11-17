@@ -1,6 +1,6 @@
 # OnlineLogsReader
 Read online logs from file which is present at server.<br>
-<img src="./inotebook.png"><br>
+<img src="./app.png"><br>
 <img src="./Architecture.png"><br>
 
 # Project Setup
@@ -33,7 +33,7 @@ Open [http://localhost:80](http://localhost:80) to view it in your browser.<br/>
     
 2. Read logs in chunks : 
     - set up data reading stream.
-    - reads datastream in chunks [ chunksize = 0.5MB ,around 500000 logs at a time ]
+    - reads datastream in chunks [ chunksize = 0.5MB(500000 Bytes) ,around 2500 logs at a time ]
     
 3. Alert of log read/write : 
     - set up Alert notification to ensure data durability.

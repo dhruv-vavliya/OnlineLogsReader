@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.post( '/' ,(req ,res)=>{
     
-    // 0.5 MB data at a time.
+    // 0.5 MB : 2500 logs at a time.
     const readable = fs.createReadStream( 
         path.join(__dirname ,'..' ,'log.txt') ,{encoding : 'utf8' ,highWaterMark:500000 ,start: req.body.offset }
     );
