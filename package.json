@@ -1,0 +1,19 @@
+{
+  "name": "onlinelogsreader",
+  "version": "1.0.0",
+  "description": "reading an online logs from text file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "author": "Dhruv Vavliya",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
