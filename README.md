@@ -1,5 +1,7 @@
 # OnlineLogsReader
-Read online logs from file which is present at server.
+Read online logs from file which is present at server.<br>
+<img src="./inotebook.png"><br>
+<img src="./Architecture.png"><br>
 
 # Project Setup
 
